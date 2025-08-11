@@ -9,6 +9,15 @@ public class BreadthFirstSearch {
         root.setVisited(true);
         queue.add(root);
 
-        
+        while(!queue.isEmpty()){
+            Vertex actualvertex=queue.remove();
+
+            for(Vertex v: actualvertex.getAdjacencyList()){
+                if(!v.isVisited()){
+                    v.setVisited(true);
+                    queue.add(v);
+                }
+            }
+        }
     }
 }
