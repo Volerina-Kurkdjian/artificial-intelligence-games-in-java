@@ -1,4 +1,4 @@
-package symetric.tree;
+package bfs.tree;
 
 public class MainTree {
 

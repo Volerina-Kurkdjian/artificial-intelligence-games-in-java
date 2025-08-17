@@ -1,8 +1,8 @@
-package maze;
+package dfs.maze;
 
 public class MazeProblem {
 
-    //Implement an algorithm that can find the way out of a maze.
+    //Implement an algorithm that can find the way out of a dfs.maze.
     //
     //[
     //[1,1,1,1,1],
